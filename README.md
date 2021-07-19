@@ -1,24 +1,10 @@
-# vue-cli
+# Vue Examples
 
-## Project setup
-```
-yarn install
-```
+> Monorepo for Vue Example Projects
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Examples
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+| Example                                           | codesandbox                                                                         |
+| ------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| [@examples/hello-cdn](examples/hello-cdn)         | [link](https://githubbox.com/younho9/vue-examples/tree/main/examples/hello-cdn)     |
+| [@examples/hello-vue-cli](examples/hello-vue-cli) | [link](https://githubbox.com/younho9/vue-examples/tree/main/examples/hello-vue-cli) |
