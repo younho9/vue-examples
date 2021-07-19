@@ -4,9 +4,10 @@
     "examples/*"
   ],
   "scripts": {
-    "serve:hello-world": "yarn workspace @examples/hello-world serve",
-    "build:hello-world": "yarn workspace @examples/hello-world build",
-    "lint:hello-world": "yarn workspace @examples/hello-world lint",
+    "serve:hello-vue-cli": "yarn workspace @examples/hello-vue-cli serve",
+    "serve:hello-cdn": "yarn workspace @examples/hello-cdn serve",
+    "build:hello-vue-cli": "yarn workspace @examples/hello-vue-cli build",
+    "lint:hello-vue-cli": "yarn workspace @examples/hello-vue-cli lint",
     "lint": "vue-cli-service lint",
     "prepare": "husky install"
   },
@@ -35,6 +36,7 @@
     "eslint-plugin-vue": "^6.2.2",
     "husky": "^7.0.1",
     "lint-staged": "^9.5.0",
+    "live-server": "^1.2.1",
     "prettier": "^2.2.1",
     "vue-template-compiler": "^2.6.11"
   }

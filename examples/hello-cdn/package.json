@@ -1,0 +1,9 @@
+{
+  "name": "@examples/hello-cdn",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./public/index.html",
+  "scripts": {
+    "serve": "live-server ./public"
+  }
+}
