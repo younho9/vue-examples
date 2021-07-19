@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "workspaces": [
+    "examples/*"
+  ],
+  "scripts": {
+    "serve:hello-world": "yarn workspace @examples/hello-world serve",
+    "build:hello-world": "yarn workspace @examples/hello-world build",
+    "lint:hello-world": "yarn workspace @examples/hello-world lint",
+    "lint": "vue-cli-service lint",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,vue}": [
+      "eslint --fix"
+    ],
+    "package.json": [
+      "npx sort-package-json"
+    ]
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "husky": "^7.0.1",
+    "lint-staged": "^9.5.0",
+    "prettier": "^2.2.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
