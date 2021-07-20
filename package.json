@@ -5,8 +5,10 @@
   ],
   "scripts": {
     "serve:hello-vue-cli": "yarn workspace @examples/hello-vue-cli serve",
+    "serve:hello-vue-cli-ts": "yarn workspace @examples/hello-vue-cli-ts serve",
     "serve:hello-cdn": "yarn workspace @examples/hello-cdn serve",
     "build:hello-vue-cli": "yarn workspace @examples/hello-vue-cli build",
+    "build:hello-vue-cli-ts": "yarn workspace @examples/hello-vue-cli-ts build",
     "lint": "vue-cli-service lint ./examples",
     "format": "prettier --write .",
     "prepare": "husky install"
@@ -29,10 +31,13 @@
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
+    "@typescript-eslint/eslint-plugin": "4.28.4",
+    "@typescript-eslint/parser": "4.28.4",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "7.0.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.3.1",
