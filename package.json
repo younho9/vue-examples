@@ -8,9 +8,13 @@
     "serve:hello-cdn": "yarn workspace @examples/hello-cdn serve",
     "build:hello-vue-cli": "yarn workspace @examples/hello-vue-cli build",
     "lint": "vue-cli-service lint ./examples",
+    "format": "prettier --write .",
     "prepare": "husky install"
   },
   "lint-staged": {
+    "*.{md,json}": [
+      "prettier --write"
+    ],
     "*.{js,jsx,ts,tsx,vue}": [
       "eslint --fix"
     ],
