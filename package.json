@@ -4,11 +4,13 @@
     "examples/*"
   ],
   "scripts": {
+    "serve:hello-cdn": "yarn workspace @examples/hello-cdn serve",
     "serve:hello-vue-cli": "yarn workspace @examples/hello-vue-cli serve",
     "serve:hello-vue-cli-ts": "yarn workspace @examples/hello-vue-cli-ts serve",
-    "serve:hello-cdn": "yarn workspace @examples/hello-cdn serve",
+    "serve:todomvc": "yarn workspace @examples/todomvc serve",
     "build:hello-vue-cli": "yarn workspace @examples/hello-vue-cli build",
     "build:hello-vue-cli-ts": "yarn workspace @examples/hello-vue-cli-ts build",
+    "build:todomvc": "yarn workspace @examples/todomvc build",
     "lint": "vue-cli-service lint ./examples",
     "format": "prettier --write .",
     "prepare": "husky install"
