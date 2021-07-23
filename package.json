@@ -8,9 +8,11 @@
     "serve:hello-vue-cli": "yarn workspace @examples/hello-vue-cli serve",
     "serve:hello-vue-cli-ts": "yarn workspace @examples/hello-vue-cli-ts serve",
     "serve:todomvc": "yarn workspace @examples/todomvc serve",
+    "serve:build-a-bot": "yarn workspace @examples/build-a-bot serve",
     "build:hello-vue-cli": "yarn workspace @examples/hello-vue-cli build",
     "build:hello-vue-cli-ts": "yarn workspace @examples/hello-vue-cli-ts build",
     "build:todomvc": "yarn workspace @examples/todomvc build",
+    "build:build-a-bot": "yarn workspace @examples/build-a-bot build",
     "lint": "vue-cli-service lint ./examples",
     "format": "prettier --write .",
     "prepare": "husky install"
@@ -47,7 +49,10 @@
     "husky": "^7.0.1",
     "lint-staged": "^9.5.0",
     "live-server": "^1.2.1",
+    "node-sass": "6.0.1",
     "prettier": "^2.2.1",
+    "sass": "1.35.2",
+    "sass-loader": "10",
     "vue-template-compiler": "^2.6.11"
   }
 }
